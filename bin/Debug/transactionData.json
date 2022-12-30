@@ -1,0 +1,59 @@
+{
+  "TransactionsData": [
+    {
+      "customerName": "Joey",
+      "customerEmail": "myemail@gmail.com",
+      "customerPhoneNumber": "+380-41-135-12-32",
+      "vendorName": "Ali",
+      "vendorEmail": "myvendor@gmail.com",
+      "orderedProduct": "PHILIPS LT-5925-FR",
+      "orderedProductCode": "NFX939353",
+      "orderedProductCategory": "displays",
+      "transactionPrice": 3500
+    },
+    {
+      "customerName": "Joey",
+      "customerEmail": "myemail@gmail.com",
+      "customerPhoneNumber": "+380-99-999-99-99",
+      "vendorName": "Ali",
+      "vendorEmail": "myvendor@gmail.com",
+      "orderedProduct": "LG FLATRON L5151-14",
+      "orderedProductCode": "NYU998472",
+      "orderedProductCategory": "displays",
+      "transactionPrice": 2000
+    },
+    {
+      "customerName": "Joey",
+      "customerEmail": "myemail@gmail.com",
+      "customerPhoneNumber": "+380-44-444-44-44",
+      "vendorName": "Ali",
+      "vendorEmail": "myvendor@gmail.com",
+      "orderedProduct": "LG FLATRON L5151-14",
+      "orderedProductCode": "NYU998472",
+      "orderedProductCategory": "displays",
+      "transactionPrice": 2000
+    },
+    {
+      "customerName": "Joey",
+      "customerEmail": "myemail@gmail.com",
+      "customerPhoneNumber": "+380-43-543-54-12",
+      "vendorName": "Ali",
+      "vendorEmail": "myvendor@gmail.com",
+      "orderedProduct": "PHILIPS LT-5925-FR",
+      "orderedProductCode": "NFX939353",
+      "orderedProductCategory": "displays",
+      "transactionPrice": 3500
+    },
+    {
+      "customerName": "Joey",
+      "customerEmail": "myemail@gmail.com",
+      "customerPhoneNumber": "+380-95-31-442-12",
+      "vendorName": "Ali",
+      "vendorEmail": "myvendor@gmail.com",
+      "orderedProduct": "PHILIPS LT-5925-FR",
+      "orderedProductCode": "NFX939353",
+      "orderedProductCategory": "displays",
+      "transactionPrice": 3500
+    }
+  ]
+}

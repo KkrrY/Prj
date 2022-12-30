@@ -1,0 +1,10 @@
+D:\B_dev_CardFile\CS_Codes\InternetShop\bin\Debug\InternetShop.exe
+D:\B_dev_CardFile\CS_Codes\InternetShop\bin\Debug\InternetShop.pdb
+D:\B_dev_CardFile\CS_Codes\InternetShop\bin\Debug\Newtonsoft.Json.dll
+D:\B_dev_CardFile\CS_Codes\InternetShop\bin\Debug\Newtonsoft.Json.xml
+D:\B_dev_CardFile\CS_Codes\InternetShop\obj\Debug\InternetShop.csproj.AssemblyReference.cache
+D:\B_dev_CardFile\CS_Codes\InternetShop\obj\Debug\InternetShop.csproj.SuggestedBindingRedirects.cache
+D:\B_dev_CardFile\CS_Codes\InternetShop\obj\Debug\InternetShop.csproj.CoreCompileInputs.cache
+D:\B_dev_CardFile\CS_Codes\InternetShop\obj\Debug\InternetShop.csproj.CopyComplete
+D:\B_dev_CardFile\CS_Codes\InternetShop\obj\Debug\InternetShop.exe
+D:\B_dev_CardFile\CS_Codes\InternetShop\obj\Debug\InternetShop.pdb
