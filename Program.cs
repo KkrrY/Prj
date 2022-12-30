@@ -489,7 +489,7 @@ namespace InternetShop{
             Console.WriteLine("Enter your product characteristics in format: \n \"characteristic tag\": description");
             //addCharacteristics(prdctCharacteristics);
 
-            // call addCharacteristics() method in database.Add();
+            // call  addCharacteristics() method in database.Add();
             database.ItemsData.Add(new ShopData(userName, email ,prdctCount,prdctName, prdctCategory, Shop.GenerateProductCode(), AddCharacteristics(prdctCharacteristics), prdctDescription, prdctWarranty, prdctPrice ));
             Serializer.Serialize(database);
         }
