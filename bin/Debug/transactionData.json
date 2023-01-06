@@ -54,6 +54,17 @@
       "orderedProductCode": "NFX939353",
       "orderedProductCategory": "displays",
       "transactionPrice": 3500
+    },
+    {
+      "customerName": "Joey",
+      "customerEmail": "myemail@gmail.com",
+      "customerPhoneNumber": "+380-94-412-12-32",
+      "vendorName": "Ali",
+      "vendorEmail": "myvendor@gmail.com",
+      "orderedProduct": "LG FLATRON L5151-14",
+      "orderedProductCode": "NYU998472",
+      "orderedProductCategory": "displays",
+      "transactionPrice": 2000
     }
   ]
 }

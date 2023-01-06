@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Text.RegularExpressions;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Serialization;
+
 
 
 namespace InternetShop{
@@ -43,7 +43,7 @@ namespace InternetShop{
             }
             if (accountT == "default"){ 
                 Console.WriteLine("Welcome to your account, " + uName);
-                CustomerAccount account = new CustomerAccount();
+                IAccount account = new CustomerAccount();
                 account.userName = uName;
                 account.email = email;
                 account.LoadActionList(database, accountDb, transactionsDb);
@@ -51,7 +51,7 @@ namespace InternetShop{
 
             if (accountT == "vendor"){
                 Console.WriteLine("Welcome to your account, " + uName);
-                VendorAccount account = new VendorAccount();
+                IAccount account = new VendorAccount();
                 account.userName = uName;
                 account.email = email;
                 Console.WriteLine("Following categories :");
@@ -113,6 +113,8 @@ namespace InternetShop{
         List<AccountData> userData{ get; }
 
         void LoadActionList(ShopDb database);
+        void LoadActionList(ShopDb database, AccountDb accountDb);
+        void LoadActionList(ShopDb database, AccountDb accountDb, TransactionsDb db);
 
     }
     interface ILogIn : IAccount{
@@ -203,9 +205,8 @@ namespace InternetShop{
         }
 
         public virtual void LoadActionList(ShopDb database){ }
-        
-        
-        
+        public virtual void LoadActionList(ShopDb database, AccountDb accountDb){ }
+        public virtual void LoadActionList(ShopDb database, AccountDb accountDb, TransactionsDb transactionsDb){ }
     }
 
     class GuestAccount : Accounts, ILogIn{
@@ -412,7 +413,7 @@ namespace InternetShop{
             return phoneNumber;
         }
         
-        public void LoadActionList(ShopDb shopDb, AccountDb accountDb, TransactionsDb transactionDb ){
+        public override void LoadActionList(ShopDb shopDb, AccountDb accountDb, TransactionsDb transactionDb ){
             Console.WriteLine("\nYou should log in if you want to buy something in shop \n".ToUpper());
             Console.WriteLine("Enter the following command action number you want to do ");
             PrintCommands();
@@ -519,7 +520,7 @@ namespace InternetShop{
             }
         }
         
-        public void LoadActionList(ShopDb shopDB, AccountDb accountDb){
+        public override void LoadActionList(ShopDb shopDB, AccountDb accountDb){
             Console.WriteLine("\nYou should log in if you want to buy something in shop \n".ToUpper());
             Console.WriteLine("Enter the following command action number you want to do ");
             PrintCommands();

@@ -1,13 +1,12 @@
 {
   "AccountsInfo": {
-    
     "myvendor@gmail.com": [
       {
         "email": "myvendor@gmail.com",
         "userName": "Ali",
         "password": "AAjqlSf7CQe2QpkLtlAl/AuL4yXWc4Pr3I1uztDRrPnBSsoVESQ+spJ4LmQqc0W6IQ==",
         "accountType": "vendor",
-        "balance": 14500
+        "balance": 16500
       }
     ],
     "myemail@gmail.com": [
@@ -16,7 +15,7 @@
         "userName": "Joey",
         "password": "AKmVANqwP1H8MEWkc+EZeUDKewgqLc3P5MzdxM2PTRKcwfuLujVvX9c3B3DryDwbnQ==",
         "accountType": "default",
-        "balance": 500
+        "balance": 3500
       }
     ]
   }
